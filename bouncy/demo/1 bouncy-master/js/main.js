@@ -1,6 +1,7 @@
 document.querySelector('.menu-icon-wrapper').onclick = function(){
     document.querySelector('.menu-icon').classList.toggle('menu-icon-active');
 }
+
 $(function(){
     $(".portfolio__content-slider-gallery").slick({
         slidesToShow: 4,
