@@ -34,6 +34,7 @@ $(function(){
       dots: true,
       autoplaySpeed: 3000
       });
+	  
     $(".testimonials__content-slider").slick({
       slidesToShow: 1,
       slidesToScroll: 1,
@@ -41,6 +42,7 @@ $(function(){
       dots: true,
       autoplaySpeed: 3000
     });
+	
     $('.news__content-slider').slick({
         dots: true,
         infinite: true,
