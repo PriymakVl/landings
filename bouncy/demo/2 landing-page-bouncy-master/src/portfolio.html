@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bouncy - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@300&family=Source+Sans+Pro:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+ 
+      <!-- Portfolio -->
+      <section id="portfolio" class="section portfolio">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="title">The portfolio</h2>
+            <h3 class="subtitle">
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+              praesentium
+            </h3>
+          </div>
+          <div id="servicesPortfolio" class="filter-row">
+            <button
+              class="btn-portfolio filter-row__item active-portfolio"
+              onclick="filterSelectionPortfolio('allworks')"
+            >
+              All works
+            </button>
+            <button
+              class="btn-portfolio filter-row__item"
+              onclick="filterSelectionPortfolio('print')"
+            >
+              Print
+            </button>
+            <button
+              class="btn-portfolio filter-row__item"
+              onclick="filterSelectionPortfolio('identity')"
+            >
+              Identity
+            </button>
+            <button
+              class="btn-portfolio filter-row__item"
+              onclick="filterSelectionPortfolio('branding')"
+            >
+              Branding
+            </button>
+            <button
+              class="btn-portfolio filter-row__item"
+              onclick="filterSelectionPortfolio('web')"
+            >
+              Web
+            </button>
+            <button
+              class="btn-portfolio filter-row__item"
+              onclick="filterSelectionPortfolio('html')"
+            >
+              HTML
+            </button>
+            <button
+              class="btn-portfolio filter-row__item"
+              onclick="filterSelectionPortfolio('wordpress')"
+            >
+              Wordpress
+            </button>
+          </div>
+        </div>
+        <div class="portfolio__inner">
+          <div class="container">
+            <div class="gallery">
+              <div class="gallery__column gallery__column-1">
+                <div class="filterDivPortfolio allworks print gallery__column-item">
+                  <img class="img" src="./img/portfolio/1.jpg" alt="1" />
+                  <div class="content">
+                    <div class="content__title">Title here</div>
+                    <div class="content__text">
+                      At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                      blanditiis praesentium
+                    </div>
+                    <div class="content__icons">
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/link.svg" alt="Icon" />
+                      </div>
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/like.svg" alt="Icon" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="filterDivPortfolio allworks print gallery__column-item">
+                  <img class="img" src="./img/portfolio/2.jpg" alt="2" />
+                  <div class="content">
+                    <div class="content__title">Title here</div>
+                    <div class="content__text">
+                      At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                      blanditiis praesentium
+                    </div>
+                    <div class="content__icons">
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/link.svg" alt="Icon" />
+                      </div>
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/like.svg" alt="Icon" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="filterDivPortfolio allworks identity gallery__column-item">
+                  <img class="img" src="./img/portfolio/3.jpg" alt="3" />
+                  <div class="content">
+                    <div class="content__title">Title here</div>
+                    <div class="content__text">
+                      At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                      blanditiis praesentium
+                    </div>
+                    <div class="content__icons">
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/link.svg" alt="Icon" />
+                      </div>
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/like.svg" alt="Icon" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery__column gallery__column-2">
+                <div class="filterDivPortfolio allworks html gallery__column-item">
+                  <img class="img" src="./img/portfolio/4.jpg" alt="4" />
+                  <div class="content">
+                    <div class="content__title">Title here</div>
+                    <div class="content__text">
+                      At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                      blanditiis praesentium
+                    </div>
+                    <div class="content__icons">
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/link.svg" alt="Icon" />
+                      </div>
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/like.svg" alt="Icon" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="filterDivPortfolio allworks branding gallery__column-item">
+                  <img class="img" src="./img/portfolio/5.jpg" alt="5" />
+                  <div class="content">
+                    <div class="content__title">Title here</div>
+                    <div class="content__text">
+                      At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                      blanditiis praesentium
+                    </div>
+                    <div class="content__icons">
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/link.svg" alt="Icon" />
+                      </div>
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/like.svg" alt="Icon" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="filterDivPortfolio allworks web gallery__column-item">
+                  <img class="img" src="./img/portfolio/6.jpg" alt="6" />
+                  <div class="content">
+                    <div class="content__title">Title here</div>
+                    <div class="content__text">
+                      At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                      blanditiis praesentium
+                    </div>
+                    <div class="content__icons">
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/link.svg" alt="Icon" />
+                      </div>
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/like.svg" alt="Icon" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery__column gallery__column-3">
+                <div class="filterDivPortfolio allworks identity gallery__column-item">
+                  <img class="img" src="./img/portfolio/7.jpg" alt="7" />
+                  <div class="content">
+                    <div class="content__title">Title here</div>
+                    <div class="content__text">
+                      At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                      blanditiis praesentium
+                    </div>
+                    <div class="content__icons">
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/link.svg" alt="Icon" />
+                      </div>
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/like.svg" alt="Icon" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="filterDivPortfolio allworks wordpress gallery__column-item">
+                  <img class="img" src="./img/portfolio/8.jpg" alt="8" />
+                  <div class="content">
+                    <div class="content__title">Title here</div>
+                    <div class="content__text">
+                      At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                      blanditiis praesentium
+                    </div>
+                    <div class="content__icons">
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/link.svg" alt="Icon" />
+                      </div>
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/like.svg" alt="Icon" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="filterDivPortfolio allworks html gallery__column-item">
+                  <img class="img" src="./img/portfolio/9.jpg" alt="9" />
+                  <div class="content">
+                    <div class="content__title">Title here</div>
+                    <div class="content__text">
+                      At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                      blanditiis praesentium
+                    </div>
+                    <div class="content__icons">
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/link.svg" alt="Icon" />
+                      </div>
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/like.svg" alt="Icon" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery__column gallery__column-4">
+                <div class="filterDivPortfolio allworks web gallery__column-item">
+                  <img class="img" src="./img/portfolio/10.jpg" alt="10" />
+                  <div class="content">
+                    <div class="content__title">Title here</div>
+                    <div class="content__text">
+                      At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                      blanditiis praesentium
+                    </div>
+                    <div class="content__icons">
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/link.svg" alt="Icon" />
+                      </div>
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/like.svg" alt="Icon" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="filterDivPortfolio allworks branding gallery__column-item">
+                  <img class="img" src="./img/portfolio/11.jpg" alt="11" />
+                  <div class="content">
+                    <div class="content__title">Title here</div>
+                    <div class="content__text">
+                      At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                      blanditiis praesentium
+                    </div>
+                    <div class="content__icons">
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/link.svg" alt="Icon" />
+                      </div>
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/like.svg" alt="Icon" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="filterDivPortfolio allworks wordpress gallery__column-item">
+                  <img class="img" src="./img/portfolio/12.jpg" alt="12" />
+                  <div class="content">
+                    <div class="content__title">Title here</div>
+                    <div class="content__text">
+                      At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                      blanditiis praesentium
+                    </div>
+                    <div class="content__icons">
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/link.svg" alt="Icon" />
+                      </div>
+                      <div class="content__icons-item">
+                        <img src="./img/portfolio/like.svg" alt="Icon" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="portfolio__submit flex">
+              <div class="container flex">
+                <div class="submit-text">
+                  At vero eos et <span class="white">accusamus</span> et iusto odio
+                  dignissimos ducimus qui blanditiis
+                </div>
+                <button class="submit-btn">Start Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Icons -->
+    <script
+      crossorigin="anonymous"
+      src="https://kit.fontawesome.com/d3b9a0e4ec.js"
+    ></script>
+
+    <!-- Local -->
+    <script src="./js/header.js"></script>
+    <script src="./js/arrowDown.js"></script>
+    <script src="./js/filterAbout.js"></script>
+    <script src="./js/test.js"></script>
+    <script src="./js/filterServices.js"></script>
+    <script src="./js/carouselTeam.js"></script>
+    <script src="./js/carouselTestimonials.js"></script>
+    <script src="./js/latestNews.js"></script>
+    <script src="./js/portfolio.js"></script>
+  </body>
+</html>

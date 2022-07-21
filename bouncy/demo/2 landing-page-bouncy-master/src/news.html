@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bouncy - News</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@300&family=Source+Sans+Pro:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+  
+      <!-- Latest news -->
+      <section id="blog" class="section news">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="title">Latest news</h2>
+            <h3 class="subtitle">
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+              praesentium
+            </h3>
+          </div>
+          <div class="container">
+            <div class="news__inner">
+              <div class="carousel">
+                <div class="mySlidesNews carousel__item fade">
+                  <div class="carousel__item-title">The trending Landing Pages</div>
+                  <div class="carousel__item-author">
+                    by <span class="green">Kabir Uddin</span>
+                  </div>
+                  <div class="info">
+                    <div class="info__likes info__item">6950 Likes</div>
+                    <div class="info__comments info__item">243 Commens</div>
+                    <div class="info__shares">703 Shares</div>
+                  </div>
+                  <div class="carousel__item-text">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                    blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
+                    et quas molestias excepturi sint occaecati cupiditate non provident,
+                    similique sunt in culpa qui officia deserunt mollitia animi, id est
+                    laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
+                    distinctio...
+                  </div>
+                  <div class="carousel__item-more more">
+                    <button class="more__btn">Read more</button>
+                    <p class="more__content">
+                      At vero eos et accusamus et iusto odio dignissimos. Et harum quidem
+                      rerum facilis est et expedita distinctio.
+                    </p>
+                  </div>
+                </div>
+                <div class="mySlidesNews carousel__item fade">
+                  <div class="carousel__item-title">The book about me</div>
+                  <div class="carousel__item-author">
+                    by <span class="green">Nikita Mumber</span>
+                  </div>
+                  <div class="info">
+                    <div class="info__likes info__item">2250 Likes</div>
+                    <div class="info__comments info__item">643 Commens</div>
+                    <div class="info__shares">1703 Shares</div>
+                  </div>
+                  <div class="carousel__item-text">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                    blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
+                    et quas molestias excepturi sint occaecati cupiditate non provident,
+                    similique sunt in culpa qui officia deserunt mollitia animi, id est
+                    laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
+                    distinctio...
+                  </div>
+                  <div class="carousel__item-more more">
+                    <button class="more__btn">Read more</button>
+                    <p class="more__content">
+                      At vero eos et accusamus et iusto odio dignissimos. Et harum quidem
+                      rerum facilis est et expedita distinctio.
+                    </p>
+                  </div>
+                </div>
+                <div class="mySlidesNews carousel__item fade">
+                  <div class="carousel__item-title">The villiage</div>
+                  <div class="carousel__item-author">
+                    by <span class="green">Akbar Hasanov</span>
+                  </div>
+                  <div class="info">
+                    <div class="info__likes info__item">450 Likes</div>
+                    <div class="info__comments info__item">1243 Commens</div>
+                    <div class="info__shares">103 Shares</div>
+                  </div>
+                  <div class="carousel__item-text">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                    blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
+                    et quas molestias excepturi sint occaecati cupiditate non provident,
+                    similique sunt in culpa qui officia deserunt mollitia animi, id est
+                    laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
+                    distinctio...
+                  </div>
+                  <div class="carousel__item-more more">
+                    <button class="more__btn">Read more</button>
+                    <p class="more__content">
+                      At vero eos et accusamus et iusto odio dignissimos. Et harum quidem
+                      rerum facilis est et expedita distinctio.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="control">
+                <div
+                  class="dot-news control__item active"
+                  onclick="currentSlideNews(1)"
+                ></div>
+                <div class="dot-news control__item" onclick="currentSlideNews(2)"></div>
+                <div class="dot-news control__item" onclick="currentSlideNews(3)"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Icons -->
+    <script
+      crossorigin="anonymous"
+      src="https://kit.fontawesome.com/d3b9a0e4ec.js"
+    ></script>
+
+    <!-- Local -->
+    <script src="./js/header.js"></script>
+    <script src="./js/arrowDown.js"></script>
+    <script src="./js/filterAbout.js"></script>
+    <script src="./js/test.js"></script>
+    <script src="./js/filterServices.js"></script>
+    <script src="./js/carouselTeam.js"></script>
+    <script src="./js/carouselTestimonials.js"></script>
+    <script src="./js/latestNews.js"></script>
+    <script src="./js/portfolio.js"></script>
+  </body>
+</html>
